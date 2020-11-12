@@ -27,3 +27,18 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## 关于css (sass)
+
+- 块：.block
+- 元素：block__element
+- 修饰符：.block--modifier
+
+.block{
+    &__element{
+
+    }
+    &--modifier{
+
+    }
+}
